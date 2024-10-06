@@ -6,7 +6,7 @@ import GlobalApi from "../_utils/GlobalApi";
 import { FaFacebook } from "react-icons/fa";
 import { BsScissors } from "react-icons/bs";
 
-function Services({ doctorList, heading = "BA Mens Beauty Salon Services" }) {
+function Services({  heading = "BA Mens Beauty Salon Services" }) {
   return (
     <div>
       <div className="mb-10 px-8">
