@@ -18,12 +18,12 @@ function Services({ doctorList, heading = "BA Mens Beauty Salon Services" }) {
         gap-7 mt-4
          lg:grid-cols-4"
         >
-          {/* { doctorList.map((doctor, index) => ( */}
+         
           <div
             className="border-[1px] rounded-lg p-3
                 cursor-pointer hover:border-primary
                 hover:shadow-sm transition-all ease-in-out"
-            // key={index}
+           
           >
             <Link href={"/packegeone"} className="w-full">
               <Image
@@ -56,7 +56,7 @@ function Services({ doctorList, heading = "BA Mens Beauty Salon Services" }) {
             className="border-[1px] rounded-lg p-3
                 cursor-pointer hover:border-primary
                 hover:shadow-sm transition-all ease-in-out"
-            // key={index}
+          
           >
             <Link href={"/packegetwo/"} className="w-full">
               <Image
@@ -89,7 +89,7 @@ function Services({ doctorList, heading = "BA Mens Beauty Salon Services" }) {
             className="border-[1px] rounded-lg p-3
                 cursor-pointer hover:border-primary
                 hover:shadow-sm transition-all ease-in-out"
-            // key={index}
+           
           >
             <Link href={"/packegethree/"} className="w-full">
               <Image
@@ -122,7 +122,7 @@ function Services({ doctorList, heading = "BA Mens Beauty Salon Services" }) {
             className="border-[1px] rounded-lg p-3
                 cursor-pointer hover:border-primary
                 hover:shadow-sm transition-all ease-in-out"
-            // key={index}
+            
           >
             <Link href={"/packegefour/"} className="w-full">
               <Image
