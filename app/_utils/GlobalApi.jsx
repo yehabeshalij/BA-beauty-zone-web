@@ -4,6 +4,8 @@ const API_KEY = process.env.NEXT_PUBLIC_STRAPI_API_KEY;
 
 const axiosClient = axios.create({
   baseURL: "https://ba-mens-beauty-zone-booking.onrender.com/api",
+  // baseURL: "http://localhost:1337/api",
+
   headers: {
     Authorization: `Bearer ${API_KEY}`,
   },
